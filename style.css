@@ -1,0 +1,64 @@
+#board {
+  display: flex;
+  flex-flow: column;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+}
+
+#green,
+#red,
+#yellow,
+#blue {
+  width: 155px;
+  height: 155px;
+  cursor: pointer;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#green:hover,
+#red:hover,
+#yellow:hover,
+#blue:hover {
+  opacity: 0.8;
+  box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.25), inset 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+#green {
+  background-color: green;
+  margin: 10px;
+}
+
+#red {
+  background-color: red;
+  margin: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  margin: 10px;
+}
+
+#blue {
+  background-color: blue;
+  margin: 10px;
+}
+
+button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #00c853;
+  margin: -3px auto 7px auto;
+}
+
+.animate {
+  opacity: 0.8;
+  box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.25), inset 0 5px 5px rgba(0, 0, 0, 0.22) !important;
+}
+
+#new-game {
+  color: red;
+}
